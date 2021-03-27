@@ -1,18 +1,50 @@
 package com.capstonedesign.prototype;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.WindowManager;
+import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
+    //선언
+    Button entranceBtn, infoBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setContentView(R.layout.activity_main);
-        
+
+        //할당
+        entranceBtn = findViewById(R.id.entranceBtn);
+        infoBtn = findViewById(R.id.infoBtn);
+
+        entranceBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+            }
+        });
+
+        infoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Dialog dialog = new Dialog(MainActivity.this);
+                dialog.setContentView(R.layout.info);
+                dialog.setTitle("Programmers Info");
+
+                Button okBtn = dialog.findViewById(R.id.okBtn);
+
+                okBtn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
+
     }
 }
