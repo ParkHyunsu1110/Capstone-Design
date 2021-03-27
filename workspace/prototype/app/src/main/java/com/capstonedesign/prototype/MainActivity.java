@@ -20,13 +20,16 @@ public class MainActivity extends Activity {
         entranceBtn = findViewById(R.id.entranceBtn);
         infoBtn = findViewById(R.id.infoBtn);
 
+        //로그인 이후 입장 버튼
         entranceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
+                Intent intent = new Intent(getApplicationContext(), Home.class);
+                startActivity(intent);
             }
         });
 
+        //제작자 정보
         infoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

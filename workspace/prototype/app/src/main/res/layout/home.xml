@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CalendarView
+            android:layout_margin="30dp"
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyInfoBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="아이정보" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyhospitalBtn"
+                android:text="아이병원"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyVaccinationBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="예방접종" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyCheckBtn"
+                android:text="아이체크"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyFoodBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="아이 음식" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyLifeBtn"
+                android:text="아이 일상"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyeducationBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="아이 교육" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/babyCalendalBtn"
+                android:text="캘린더"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
