@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:id="@+id/graph" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-        android:layout_alignParentBottom="true"
-
-        android:layout_marginBottom="3dp"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/inputOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_marginVertical="210dp"
+            android:layout_marginVertical="10dp"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/firstNum_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value x"
+                android:hint="몸무게"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/secondNum_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value y"
+                android:hint="키"
                 android:inputType="number" />
 
         </LinearLayout>
@@ -48,22 +44,21 @@
             android:id="@+id/inputTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="210dp"
-
+            android:layout_marginVertical="10dp"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/firstNum_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value x"
+                android:hint="몸무게"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/secondNum_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value y"
+                android:hint="키"
                 android:inputType="number" />
         </LinearLayout>
 
@@ -71,7 +66,7 @@
             android:id="@+id/inputThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="210dp"
+            android:layout_marginVertical="10dp"
 
             android:orientation="vertical">
 
@@ -79,14 +74,14 @@
                 android:id="@+id/firstNum_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value x"
+                android:hint="몸무게"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/secondNum_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value y"
+                android:hint="키"
                 android:inputType="number" />
         </LinearLayout>
 
@@ -94,34 +89,60 @@
             android:id="@+id/inputFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="210dp"
-
+            android:layout_marginVertical="10dp"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/firstNum_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value x"
+                android:hint="몸무게"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/secondNum_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="value y"
+                android:hint="키"
                 android:inputType="number" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginVertical="10dp"
+            android:text="upload" />
+
+
+
+
     </LinearLayout>
-    <Button
-        android:id = "@+id/addButton"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
-        android:layout_alignParentBottom = "true"
-        android:layout_centerHorizontal = "true"
-        android:layout_marginBottom = "17dp"
-        android:text="upload"/>
-</RelativeLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioBoyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자아이" />
+        <RadioButton
+            android:id="@+id/radioGirlBtn"
+            android:text="여자아이"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/image"
+        android:src="@drawable/boy1"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</LinearLayout>
 
 
 

@@ -14,15 +14,9 @@
         <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="300dp"
-<<<<<<< HEAD
-            android:layout_height="100dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-=======
             android:layout_height="110dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="30dp"
->>>>>>> f4f4da15c2fa14d743588600bb58ebcaa3af3825
             android:layout_marginLeft="50dp"
             android:background="@drawable/logo" />
 

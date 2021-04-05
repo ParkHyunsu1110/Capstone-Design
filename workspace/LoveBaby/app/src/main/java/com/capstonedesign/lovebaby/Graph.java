@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.jjoe64.graphview.GraphView;
@@ -17,6 +20,11 @@ public class Graph extends AppCompatActivity {
     EditText firstNum_2, secondNum_2;
     EditText firstNum_3, secondNum_3;
     EditText firstNum_4, secondNum_4;
+
+    RadioGroup radioGroup;
+    RadioButton radioBoyBtn, radioGirlBtn;
+
+    ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +40,31 @@ public class Graph extends AppCompatActivity {
         final GraphView graph = (GraphView) findViewById(R.id.graph);
         Button button = findViewById(R.id.addButton);
         graph.setVisibility(View.VISIBLE);
+
+        radioGroup = findViewById(R.id.radioGroup);
+        radioBoyBtn = findViewById(R.id.radioBoyBtn);
+        radioGirlBtn = findViewById(R.id.radioGirlBtn);
+
+        image = findViewById(R.id.image);
+
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                int rb = radioGroup.getCheckedRadioButtonId();
+
+                switch(rb){
+                    case R.id.radioBoyBtn:
+                        image.setImageResource(R.drawable.boy1);
+                        image.setVisibility(View.VISIBLE);
+                        break;
+                    case R.id.radioGirlBtn:
+                        image.setImageResource(R.drawable.girl1);
+                        image.setVisibility(View.VISIBLE);
+                        break;
+                }
+            }
+        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,10 +84,10 @@ public class Graph extends AppCompatActivity {
                 try {
                     LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
                             new DataPoint(0, 1),
-                            new DataPoint(Integer.valueOf(firstInput_1), Integer.valueOf(secondInput_1)),
-                            new DataPoint(Integer.valueOf(firstInput_2), Integer.valueOf(secondInput_2)),
-                            new DataPoint(Integer.valueOf(firstInput_3), Integer.valueOf(secondInput_3)),
-                            new DataPoint(Integer.valueOf(firstInput_4), Integer.valueOf(secondInput_4))
+                            new DataPoint(Double.valueOf(firstInput_1), Double.valueOf(secondInput_1)),
+                            new DataPoint(Double.valueOf(firstInput_2), Double.valueOf(secondInput_2)),
+                            new DataPoint(Double.valueOf(firstInput_3), Double.valueOf(secondInput_3)),
+                            new DataPoint(Double.valueOf(firstInput_4), Double.valueOf(secondInput_4))
                     });
                     graph.addSeries(series);
                 } catch (IllegalArgumentException e) {
