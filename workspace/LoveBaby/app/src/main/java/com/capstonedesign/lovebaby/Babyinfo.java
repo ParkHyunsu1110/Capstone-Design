@@ -1,6 +1,7 @@
 package com.capstonedesign.lovebaby;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,8 +10,9 @@ import android.widget.ViewFlipper;
 
 public class Babyinfo extends Activity {
     //변수 모음
-    Button BtnStart, BtnStop;
+    Button BtnStart, BtnStop,Doublecheck;
     ViewFlipper vFlipper;
+    View diglogView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,19 @@ public class Babyinfo extends Activity {
             @Override
             public void onClick(View view) {
                 vFlipper.stopFlipping();
+            }
+        });
+
+        Doublecheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                diglogView = (View) View.inflate(Babyinfo.this, R.layout.dialog1, null);
+                AlertDialog.Builder dlg = new AlertDialog.Builder(Babyinfo.this);
+                dlg.setTitle("암호 입력");
+                dlg.setView(diglogView);
+                dlg.setPositiveButton("확인",null);
+                dlg.setNegativeButton("취소",null);
+                dlg.show();
             }
         });
     }

@@ -12,7 +12,6 @@
         <ImageView
             android:id="@+id/baby1"
             android:src="@drawable/baby1"
-
             android:layout_width="wrap_content"
             android:layout_height="200dp"
 
@@ -22,7 +21,6 @@
         <ImageView
             android:id="@+id/baby2"
             android:src="@drawable/baby2"
-
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_gravity="center"/>
@@ -30,7 +28,6 @@
         <ImageView
             android:id="@+id/baby3"
             android:src="@drawable/baby3"
-
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_gravity="center"/>
@@ -38,20 +35,15 @@
 
     <LinearLayout
         android:orientation="horizontal"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_gravity="center">
 
         <Button
             android:id="@+id/BtnStart"
             android:text="사진보기 시작"
-
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_weight="1"
             android:background="#CEF279"
             android:layout_marginTop="230dp"
@@ -61,7 +53,6 @@
         <Button
             android:id="@+id/BtnStop"
             android:text="사진보기 정지"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -74,24 +65,19 @@
 
     <LinearLayout
         android:orientation="vertical"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="300dp"
         android:layout_marginLeft="50dp">
 
         <TextView
             android:text="이름 : "
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/babyname"
-
             android:inputType="textPersonName"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
@@ -102,63 +88,71 @@
 
         <EditText
             android:id="@+id/rrnumber"
-
             android:inputType="textPassword"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
 
         <TextView
             android:text="생년월일 : "
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/birthdate"
-
             android:inputType="textPersonName"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
 
         <TextView
             android:text="태어난 시간 : "
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/birthtime"
-
             android:inputType="textPassword"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10" />
         <TextView
             android:text="혈액형 : "
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/bloodgroups"
-
             android:inputType="textPassword"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
     </LinearLayout>
 
-    <Button
-        android:text="확인"
+    <ImageButton
+        android:id="@+id/doublecheck"
+        android:background="@drawable/doublecheck"
 
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="380dp"
+        />
+
+    <Button
+        android:id="@+id/infochange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="370dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="520dp"
+        android:text="변경" />
+
+    <Button
+        android:text="삭제"
+        android:id="@+id/infodelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
         android:layout_marginLeft="270dp"/>
 </RelativeLayout>
