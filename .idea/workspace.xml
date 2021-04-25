@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d9fb6d2-1e86-439a-8b88-6cbb46e27249" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/M-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyReview.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/height, weight.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/.idea/workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/androidTest/java/com/capstonedesign/lovebaby/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/Babyinfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/baby1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/baby2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/baby3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/boy1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/ca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/cal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/girl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/graph.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/infobtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/intro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable-v24/st.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/layout/babyinfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/layout/graphshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/layout/home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/layout/info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/app/src/test/java/com/capstonedesign/lovebaby/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/LoveBaby/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/androidTest/java/com/capstonedesign/prototype/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/java/com/capstonedesign/prototype/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/java/com/capstonedesign/prototype/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable-v24/infobtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable-v24/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable-v24/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/drawable/intro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/layout/home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/layout/info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/app/src/test/java/com/capstonedesign/prototype/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/prototype/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/androidTest/java/com/example/mygraph/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/java/com/example/mygraph/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/app/src/test/java/com/example/mygraph/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/관련 자료들/MyGraph/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/사진 파일/infobtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/사진 파일/intro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/사진 파일/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/사진 파일/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/캡스톤 발표 대본.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/캡스톤1-제안서-양식 사랑 애(愛).hwp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rd7tBkZGt0jXiipAYRVPot8adu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/LoveBaby" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d9fb6d2-1e86-439a-8b88-6cbb46e27249" name="Default Changelist" comment="" />
+      <created>1619294324255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619294324255</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1619294341445">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619294341445" />
+  </component>
+</project>
