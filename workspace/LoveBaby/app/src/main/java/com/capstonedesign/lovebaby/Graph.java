@@ -72,11 +72,11 @@ public class Graph extends AppCompatActivity {
                 //라디오 버튼 클릭시 이미지가 보이도록하며, 라디오 그룹에 있는 버튼 중 하나만 선택 가능한 성질을 이용, 남아 선택 시 남아만, 여아 선택 시 여아만
                 switch(rb){
                     case R.id.radioBoyBtn:
-                        image.setImageResource(R.drawable.boy1);
+                        image.setImageResource(R.drawable.malehwtable);
                         image.setVisibility(View.VISIBLE);
                         break;
                     case R.id.radioGirlBtn:
-                        image.setImageResource(R.drawable.girl1);
+                        image.setImageResource(R.drawable.femalehwtable);
                         image.setVisibility(View.VISIBLE);
                         break;
                 }
@@ -106,10 +106,11 @@ public class Graph extends AppCompatActivity {
                 try {
                     LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
                             //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
-                            new DataPoint(0.0, 10.0),
-                            new DataPoint(Double.valueOf("3.2"), Double.valueOf("43.2")),
-                            new DataPoint(Double.valueOf("3.7"), Double.valueOf("45.7")),
-                            new DataPoint(Double.valueOf("4.2"), Double.valueOf("48.5")),
+                            new DataPoint(4.4, 55.0),
+                            new DataPoint(Double.valueOf("6.5"), Double.valueOf("62")),
+                            new DataPoint(Double.valueOf("7.7"), Double.valueOf("66.3")),
+                            new DataPoint(Double.valueOf("8.7"), Double.valueOf("71.5")),
+                            new DataPoint(Double.valueOf("9.6"), Double.valueOf("76.3")),
                             new DataPoint(Double.valueOf(weightInput_4), Double.valueOf(heightInput_4))
                     });
                     graph.addSeries(series);
@@ -131,10 +132,11 @@ public class Graph extends AppCompatActivity {
                         new DataPoint(Double.valueOf(weightInput_3), Double.valueOf(heightInput_3)),*/
 
                         //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
-                        new DataPoint(0.0, 10.0),
-                        new DataPoint(Double.valueOf("3.2"), Double.valueOf("43.2")),
-                        new DataPoint(Double.valueOf("3.7"), Double.valueOf("45.7")),
-                        new DataPoint(Double.valueOf("4.2"), Double.valueOf("48.5"))
+                        new DataPoint(4.4, 55.0),
+                        new DataPoint(Double.valueOf("6.5"), Double.valueOf("62")),
+                        new DataPoint(Double.valueOf("7.7"), Double.valueOf("66.3")),
+                        new DataPoint(Double.valueOf("8.7"), Double.valueOf("71.5")),
+                        new DataPoint(Double.valueOf("9.6"), Double.valueOf("76.3"))
                 });
                 graph.addSeries(series);
             }

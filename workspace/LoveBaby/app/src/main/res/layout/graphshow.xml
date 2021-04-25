@@ -171,7 +171,6 @@
         </RadioGroup>
     </LinearLayout>
 
-
     <ImageView
         android:id="@+id/image"
         android:src="@drawable/boy1"
