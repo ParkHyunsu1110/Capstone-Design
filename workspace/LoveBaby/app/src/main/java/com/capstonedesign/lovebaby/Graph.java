@@ -16,13 +16,20 @@ import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 public class Graph extends AppCompatActivity {
+    /**
+     * weight_1,2,3
+     * height_1,2,3
+     *  위 6가지는 우선 제외하고 진행하도록 할게요.
+     * 교수님은 우선적으로 실행을 보시는것 같으니 임의값 집어 넣고 실행하도록 하겠습니다.
+     * */
     //변수 모음
+    /*
     EditText weight_1, height_1;
     EditText weight_2, height_2;
-    EditText weight_3, height_3;
+    EditText weight_3, height_3;*/
     EditText weight_4, height_4;
 
-    Button button;
+    Button inputButton, outputButton;
 
     RadioGroup radioGroup;
     RadioButton radioBoyBtn, radioGirlBtn;
@@ -39,13 +46,14 @@ public class Graph extends AppCompatActivity {
         graph.setVisibility(View.VISIBLE);  //그래프 보이도록 설정
 
         //몸무게, 키 editText 변수 할당
-        weight_1 = findViewById(R.id.weight_1); height_1 = findViewById(R.id.height_1);
+       /* weight_1 = findViewById(R.id.weight_1); height_1 = findViewById(R.id.height_1);
         weight_2 = findViewById(R.id.weight_2); height_2 = findViewById(R.id.height_2);
-        weight_3 = findViewById(R.id.weight_3); height_3 = findViewById(R.id.height_3);
+        weight_3 = findViewById(R.id.weight_3); height_3 = findViewById(R.id.height_3);*/
         weight_4 = findViewById(R.id.weight_4); height_4 = findViewById(R.id.height_4);
 
         //실행 버튼 할당
-        button = findViewById(R.id.addButton);
+        inputButton = findViewById(R.id.inputButton);
+        outputButton = findViewById(R.id.outputButton);
 
         //라디오 변수 할당
         radioGroup = findViewById(R.id.radioGroup);
@@ -75,21 +83,21 @@ public class Graph extends AppCompatActivity {
             }
         });
 
-        //그래프 입력 버튼
-        button.setOnClickListener(new View.OnClickListener() {
+        //입력값 출력 버튼
+        inputButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 //문자열 변수 생성
-                String weightInput_1, heightInput_1;
+                /*String weightInput_1, heightInput_1;
                 String weightInput_2, heightInput_2;
-                String weightInput_3, heightInput_3;
+                String weightInput_3, heightInput_3;*/
                 String weightInput_4, heightInput_4;
 
                 //입력된 숫자 문자열로 변경
-                weightInput_1 = weight_1.getText().toString(); heightInput_1 = height_1.getText().toString();
+                /*weightInput_1 = weight_1.getText().toString(); heightInput_1 = height_1.getText().toString();
                 weightInput_2 = weight_2.getText().toString(); heightInput_2 = height_2.getText().toString();
-                weightInput_3 = weight_3.getText().toString(); heightInput_3 = height_3.getText().toString();
+                weightInput_3 = weight_3.getText().toString(); heightInput_3 = height_3.getText().toString();*/
                 weightInput_4 = weight_4.getText().toString(); heightInput_4 = height_4.getText().toString();
 
                 //그래프 그리기
@@ -97,10 +105,11 @@ public class Graph extends AppCompatActivity {
                 //valueOf의 경우 자바스크립트 내부적으로 사용되고, 작성할 때 코드상으로는 사용되지 않는다.
                 try {
                     LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
-                            new DataPoint(0, 10),
-                            new DataPoint(Double.valueOf(weightInput_1), Double.valueOf(heightInput_1)),
-                            new DataPoint(Double.valueOf(weightInput_2), Double.valueOf(heightInput_2)),
-                            new DataPoint(Double.valueOf(weightInput_3), Double.valueOf(heightInput_3)),
+                            //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
+                            new DataPoint(0.0, 10.0),
+                            new DataPoint(Double.valueOf("3.2"), Double.valueOf("43.2")),
+                            new DataPoint(Double.valueOf("3.7"), Double.valueOf("45.7")),
+                            new DataPoint(Double.valueOf("4.2"), Double.valueOf("48.5")),
                             new DataPoint(Double.valueOf(weightInput_4), Double.valueOf(heightInput_4))
                     });
                     graph.addSeries(series);
@@ -108,6 +117,26 @@ public class Graph extends AppCompatActivity {
                     //예외처리 하여 메시지 출력하도록.
                     Toast.makeText(Graph.this, e.getMessage(), Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        //저장값 출력 버튼
+        outputButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
+
+                        /*new DataPoint(Double.valueOf(weightInput_1), Double.valueOf(heightInput_1)),
+                        new DataPoint(Double.valueOf(weightInput_2), Double.valueOf(heightInput_2)),
+                        new DataPoint(Double.valueOf(weightInput_3), Double.valueOf(heightInput_3)),*/
+
+                        //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
+                        new DataPoint(0.0, 10.0),
+                        new DataPoint(Double.valueOf("3.2"), Double.valueOf("43.2")),
+                        new DataPoint(Double.valueOf("3.7"), Double.valueOf("45.7")),
+                        new DataPoint(Double.valueOf("4.2"), Double.valueOf("48.5"))
+                });
+                graph.addSeries(series);
             }
         });
     }

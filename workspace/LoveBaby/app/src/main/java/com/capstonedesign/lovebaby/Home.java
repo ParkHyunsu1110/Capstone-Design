@@ -39,6 +39,7 @@ public class Home extends Activity {
                 startActivity(intent2);
             }
         });
+        //버튼 클릭 시 캘린더 부분으로 이동
         babyCalendalBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

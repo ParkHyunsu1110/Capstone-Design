@@ -9,7 +9,7 @@ import android.widget.ViewFlipper;
 
 public class Babyinfo extends Activity {
     //변수 모음
-    Button BtnStart , BtnStop;
+    Button BtnStart, BtnStop;
     ViewFlipper vFlipper;
 
     @Override
@@ -23,14 +23,18 @@ public class Babyinfo extends Activity {
         BtnStart = findViewById(R.id.BtnStart);
         BtnStop = findViewById(R.id.BtnStop);
         vFlipper = findViewById(R.id.flipper);
+
+        //뷰 플리퍼 1초마다 넘어가도록 1초  = 1000
         vFlipper.setFlipInterval(1000);
 
+        //뷰 플리퍼 시작 버튼
         BtnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 vFlipper.startFlipping();
             }
         });
+        //뷰 플리퍼 정지 버튼
         BtnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

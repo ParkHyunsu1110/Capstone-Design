@@ -10,121 +10,155 @@
         android:id="@+id/flipper">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
+            android:id="@+id/baby1"
             android:src="@drawable/baby1"
-            android:id="@+id/baby1"/>
-        <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/baby2"
             android:src="@drawable/baby2"
-            android:id="@+id/baby2"/>
-        <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:layout_gravity="center"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/baby3"
             android:src="@drawable/baby3"
-            android:id="@+id/baby3"/>
+
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
     </ViewFlipper>
 
     <LinearLayout
+        android:orientation="horizontal"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+
         android:layout_gravity="center">
 
         <Button
+            android:id="@+id/BtnStart"
+            android:text="사진보기 시작"
+
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_weight="1"
             android:background="#CEF279"
             android:layout_marginTop="230dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:text="사진보기 시작"
-            android:id="@+id/BtnStart"/>
+            android:layout_marginRight="10dp"/>
+
         <Button
+            android:id="@+id/BtnStop"
+            android:text="사진보기 정지"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+
             android:background="#CEF279"
             android:layout_marginTop="230dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
-            android:text="사진보기 정지"
-            android:id="@+id/BtnStop"/>
+            android:layout_marginRight="15dp"/>
     </LinearLayout>
+
     <LinearLayout
+        android:orientation="vertical"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+
         android:layout_marginTop="300dp"
         android:layout_marginLeft="50dp">
 
         <TextView
+            android:text="이름 : "
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="이름 : "/>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/babyname"
+
+            android:inputType="textPersonName"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"/>
+            android:ems="10"/>
         <TextView
+            android:text="주민번호 : "
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="주민번호 : "/>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/rrnumber"
+
+            android:inputType="textPassword"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:ems="10"/>
+
         <TextView
+            android:text="생년월일 : "
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="생년월일 : "/>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/birthdate"
+
+            android:inputType="textPersonName"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"/>
+            android:ems="10"/>
+
         <TextView
+            android:text="태어난 시간 : "
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="태어난 시간 : "/>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/birthtime"
+
+            android:inputType="textPassword"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:ems="10" />
         <TextView
+            android:text="혈액형 : "
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="혈액형 : "/>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/bloodgroups"
+
+            android:inputType="textPassword"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:ems="10"/>
     </LinearLayout>
 
     <Button
+        android:text="확인"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="370dp"
-        android:layout_marginLeft="270dp"
-        android:text="확인"/>
+        android:layout_marginLeft="270dp"/>
 </RelativeLayout>
