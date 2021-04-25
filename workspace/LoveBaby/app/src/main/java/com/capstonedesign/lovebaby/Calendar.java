@@ -44,7 +44,7 @@ public class Calendar extends AppCompatActivity {
         final String userID=intent.getStringExtra("userID");
          */
 
-        String name="의정";
+        String name="산모";
         final String userID="의정";
         textView3.setText(name+"님의 일정");
 
