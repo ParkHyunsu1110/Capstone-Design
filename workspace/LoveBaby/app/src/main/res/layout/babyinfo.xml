@@ -5,13 +5,15 @@
     android:layout_height="match_parent">
 
     <ViewFlipper
+        android:id="@+id/flipper"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/flipper">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/baby1"
             android:src="@drawable/baby1"
+
             android:layout_width="wrap_content"
             android:layout_height="200dp"
 
@@ -21,29 +23,37 @@
         <ImageView
             android:id="@+id/baby2"
             android:src="@drawable/baby2"
+
             android:layout_width="wrap_content"
             android:layout_height="200dp"
+
             android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/baby3"
             android:src="@drawable/baby3"
+
             android:layout_width="wrap_content"
             android:layout_height="200dp"
+
             android:layout_gravity="center"/>
     </ViewFlipper>
 
     <LinearLayout
         android:orientation="horizontal"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_gravity="center">
 
         <Button
-            android:id="@+id/BtnStart"
+            android:id="@+id/btnStart"
             android:text="사진보기 시작"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_weight="1"
             android:background="#CEF279"
             android:layout_marginTop="230dp"
@@ -51,13 +61,14 @@
             android:layout_marginRight="10dp"/>
 
         <Button
-            android:id="@+id/BtnStop"
+            android:id="@+id/btnStop"
             android:text="사진보기 정지"
+            android:background="#CEF279"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
 
-            android:background="#CEF279"
+            android:layout_weight="1"
             android:layout_marginTop="230dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="15dp"/>
@@ -65,72 +76,129 @@
 
     <LinearLayout
         android:orientation="vertical"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_marginTop="300dp"
         android:layout_marginLeft="50dp">
 
         <TextView
             android:text="이름 : "
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
-            android:id="@+id/babyname"
+            android:id="@+id/babyName"
+
             android:inputType="textPersonName"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
+
         <TextView
             android:text="주민번호 : "
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <EditText
-            android:id="@+id/rrnumber"
-            android:inputType="textPassword"
+        <!-- resident registration number-->
+        <LinearLayout
+            android:orientation = "horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"/>
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/rrNumber1"
 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"/>
+            <TextView
+                android:text="  --  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/rrNumber2"
+
+                android:inputType="textPassword"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"/>
+        </LinearLayout>
+
+        <!-- Birth Date-->
         <TextView
             android:text="생년월일 : "
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <EditText
-            android:id="@+id/birthdate"
-            android:inputType="textPersonName"
+        <LinearLayout
+            android:orientation = "horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"/>
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/year"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"/>
+            <TextView
+                android:text="  /  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/month"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"/>
+            <TextView
+                android:text="  /  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/day"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"/>
+
+        </LinearLayout>
+
 
         <TextView
             android:text="태어난 시간 : "
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
-            android:id="@+id/birthtime"
-            android:inputType="textPassword"
+            android:id="@+id/birthTime"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10" />
+
         <TextView
             android:text="혈액형 : "
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <EditText
-            android:id="@+id/bloodgroups"
-            android:inputType="textPassword"
+            android:id="@+id/bloodType"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"/>
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/doublecheck"
+        android:id="@+id/doubleCheck"
         android:background="@drawable/doublecheck"
 
         android:layout_width="30dp"
@@ -140,19 +208,32 @@
         android:layout_marginTop="380dp"
         />
 
-    <Button
-        android:id="@+id/infochange"
-        android:layout_width="wrap_content"
+    <CheckBox
+        android:text="변경 기록 저장"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
         android:layout_marginLeft="270dp"
-        android:layout_marginTop="520dp"
-        android:text="변경" />
+        android:layout_marginTop="480dp"
+        />
 
     <Button
-        android:text="삭제"
-        android:id="@+id/infodelete"
+        android:id="@+id/infoChange"
+        android:text="변경"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="520dp"/>
+
+    <Button
+        android:id="@+id/infoDelete"
+        android:text="삭제"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
         android:layout_marginTop="580dp"
         android:layout_marginLeft="270dp"/>
 </RelativeLayout>
