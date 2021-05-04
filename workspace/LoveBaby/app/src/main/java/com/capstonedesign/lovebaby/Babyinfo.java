@@ -12,8 +12,6 @@ import android.widget.ImageButton;
 import android.widget.ViewFlipper;
 import android.support.v7.app.AppCompatActivity;
 
-
-
 public class Babyinfo extends AppCompatActivity {
     //변수 모음
     Button btnStart, btnStop, infoChange, infoDelete;
@@ -75,7 +73,7 @@ public class Babyinfo extends AppCompatActivity {
         doubleCheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                diglogView = (View) View.inflate(Babyinfo.this, R.layout.dialog1, null);
+                diglogView = (View) View.inflate(Babyinfo.this, R.layout.graphmain, null);
 
                 AlertDialog.Builder dlg = new AlertDialog.Builder(Babyinfo.this);
 
@@ -136,7 +134,5 @@ public class Babyinfo extends AppCompatActivity {
 
         //저장
         editor.apply();
-
     }
-
 }

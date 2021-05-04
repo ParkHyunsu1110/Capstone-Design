@@ -27,7 +27,7 @@ public class Home extends Activity {
         graphBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Graph.class);
+                Intent intent = new Intent(getApplicationContext(), GraphTab.class);
                 startActivity(intent);
             }
         });

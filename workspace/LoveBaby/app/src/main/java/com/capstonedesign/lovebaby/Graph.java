@@ -22,6 +22,7 @@ public class Graph extends AppCompatActivity {
      *  위 6가지는 우선 제외하고 진행하도록 할게요.
      * 교수님은 우선적으로 실행을 보시는것 같으니 임의값 집어 넣고 실행하도록 하겠습니다.
      * */
+
     //변수 모음
     /*
     EditText weight_1, height_1;

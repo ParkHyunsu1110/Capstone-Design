@@ -17,8 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home"/>
+
+        <activity android:name=".GraphTab"/>
+        <activity android:name=".Input"/>
         <activity android:name=".Graph"/>
+        <activity android:name=".Table"/>
+
         <activity android:name=".Babyinfo"/>
+
         <activity android:name=".Calendar"/>
     </application>
 

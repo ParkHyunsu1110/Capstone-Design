@@ -40,7 +40,7 @@
 
             <ImageButton
                 android:id="@+id/babyhospitalBtn"
-                android:background="@drawable/h"
+                android:background="@drawable/hospital"
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -49,7 +49,7 @@
 
             <ImageButton
                 android:id="@+id/babyVaccinationBtn"
-                android:background="@drawable/s"
+                android:background="@drawable/syringe"
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -58,7 +58,7 @@
 
             <ImageButton
                 android:id="@+id/babyCheckBtn"
-                android:background="@drawable/c"
+                android:background="@drawable/check"
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -99,7 +99,7 @@
 
             <ImageButton
                 android:id="@+id/babyFoodBtn"
-                android:background="@drawable/ca"
+                android:background="@drawable/camera"
 
                 android:layout_row="1"
                 android:layout_column="0"
@@ -112,7 +112,7 @@
 
             <ImageButton
                 android:id="@+id/babyinfoBtn"
-                android:background="@drawable/st"
+                android:background="@drawable/babyinfo"
 
                 android:layout_row="1"
                 android:layout_column="1"
@@ -125,7 +125,7 @@
 
             <ImageButton
                 android:id="@+id/babyeducationBtn"
-                android:background="@drawable/f"
+                android:background="@drawable/meal"
 
                 android:layout_row="1"
                 android:layout_column="2"
@@ -138,7 +138,7 @@
 
             <ImageButton
                 android:id="@+id/babyCalendalBtn"
-                android:background="@drawable/cal"
+                android:background="@drawable/calendal"
 
                 android:layout_row="1"
                 android:layout_column="3"
