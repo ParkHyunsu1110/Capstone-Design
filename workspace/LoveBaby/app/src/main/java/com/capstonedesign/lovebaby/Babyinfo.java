@@ -84,7 +84,7 @@ public class Babyinfo extends AppCompatActivity {
                 dlg.setPositiveButton("확인",null);
                 dlg.setNegativeButton("취소",null);
 
-               dlg.show();
+                dlg.show();
             }
         });
 

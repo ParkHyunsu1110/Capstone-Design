@@ -168,6 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </RadioGroup>
+
     </LinearLayout>
 
     <!--<ImageView
@@ -179,6 +180,19 @@
         android:layout_width="match_parent"
         android:layout_height="300dp" />-->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:text="입력 값"
+        android:textSize="50px"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:id="@+id/btnOk"/>
 </LinearLayout>
 
 

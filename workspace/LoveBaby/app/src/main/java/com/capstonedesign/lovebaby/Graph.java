@@ -1,6 +1,8 @@
 package com.capstonedesign.lovebaby;
 
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -9,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jjoe64.graphview.GraphView;
@@ -36,6 +39,8 @@ public class Graph extends AppCompatActivity {
     RadioButton radioBoyBtn, radioGirlBtn;
 
     ImageView image;
+
+    String cm,kg,month2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,14 +117,17 @@ public class Graph extends AppCompatActivity {
                             new DataPoint(Double.valueOf("7.7"), Double.valueOf("66.3")),
                             new DataPoint(Double.valueOf("8.7"), Double.valueOf("71.5")),
                             new DataPoint(Double.valueOf("9.6"), Double.valueOf("76.3")),
-                            new DataPoint(Double.valueOf(weightInput_4), Double.valueOf(heightInput_4))
+                            new DataPoint(Double.valueOf(kg), Double.valueOf(cm))
                     });
                     graph.addSeries(series);
                 } catch (IllegalArgumentException e) {
                     //예외처리 하여 메시지 출력하도록.
                     Toast.makeText(Graph.this, e.getMessage(), Toast.LENGTH_LONG).show();
                 }
+
+
             }
+
         });
 
         //저장값 출력 버튼
@@ -142,5 +150,34 @@ public class Graph extends AppCompatActivity {
                 graph.addSeries(series);
             }
         });
+
+        //이전 액티비티에서 전달한 값 불러오기
+        Intent intent = getIntent();
+        cm = intent.getExtras().getString("cm").toString();
+        kg = intent.getExtras().getString("kg").toString();
+        month2 = intent.getExtras().getString("month2").toString();
+
+        TextView txtResult = (TextView) findViewById(R.id.txtResult);
+        txtResult.setText("키 :  " + cm + "\n 몸무게 : " + kg + "\n 개월수 : " + month2);
+
+        Button btnOk = (Button) findViewById(R.id.btnOk);
+        btnOk.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                process();
+                finish();
+            }
+        });
     }
+
+    private void process() {
+        //호출한 액티비티에게 결과값 전달
+        Intent intent = new Intent(this, Input.class);
+        intent.putExtra("cm", cm);
+        intent.putExtra("kg", kg);
+        intent.putExtra("month2", month2);
+        setResult(Activity.RESULT_OK, intent);
+    }
+
 }
