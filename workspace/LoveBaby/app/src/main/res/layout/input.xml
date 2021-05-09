@@ -69,7 +69,7 @@
         tools:layout_editor_absoluteY="377dp" />
 
     <EditText
-        android:id="@+id/개월수"
+        android:id="@+id/month2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -78,13 +78,22 @@
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="371dp" />
 
-    <Button
-        android:id="@+id/inputbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="입력"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="474dp" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/inputbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="474dp"/>
+        <Button
+            android:id="@+id/exitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종료"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="474dp"/>
+    </LinearLayout>
 </LinearLayout>
