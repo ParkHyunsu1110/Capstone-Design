@@ -9,176 +9,53 @@
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:id="@+id/graph" />
+        android:id="@+id/graphWeight" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <!-- <LinearLayout
-            android:id="@+id/inputOne"
-
-            android:orientation="vertical"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginVertical="10dp" >
-
-            <EditText
-                android:id="@+id/weight_1"
-                android:hint="몸무게"
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <EditText
-                android:id="@+id/height_1"
-                android:hint="키"
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/inputTwo"
-
-            android:orientation="vertical"
+        <Button
+            android:id="@+id/inputWeightButton"
+            android:text="체중 입력값 출력"
 
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginVertical="10dp">
-
-            <EditText
-                android:id="@+id/weight_2"
-                android:hint="몸무게"
-
-                android:inputType="numberDecimal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
-
-            <EditText
-                android:id="@+id/height_2"
-                android:hint="키"
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/inputThree"
-
-            android:orientation="vertical"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginVertical="10dp">
-
-            <EditText
-                android:id="@+id/weight_3"
-                android:hint="몸무게"
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-            <EditText
-                android:id="@+id/height_3"
-                android:hint="키"
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-        </LinearLayout> -->
-
-        <LinearLayout
-            android:id="@+id/inputFour"
-
-            android:orientation="vertical"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="10dp">
-
-            <EditText
-                android:id="@+id/weight_4"
-                android:hint="           몸무게          "
-
-                android:inputType="numberDecimal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:id="@+id/height_4"
-                android:hint="               키             "
-
-                android:inputType="numberDecimal"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
+            android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/inputButton"
-            android:text="입력값\n출력"
+            android:id="@+id/outputWeightButton"
+            android:text="체중 저장값 출력"
 
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-
-            android:layout_marginVertical="10dp" />
-
-        <Button
-            android:id="@+id/outputButton"
-            android:layout_width="wrap_content"
-
-            android:layout_height="100dp"
-            android:layout_marginVertical="10dp"
-
-            android:text="저장값\n출력" />
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:orientation="vertical"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <RadioButton
-                android:id="@+id/radioBoyBtn"
-                android:text="남자\n아이"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <RadioButton
-                android:id="@+id/radioGirlBtn"
-                android:text="여자\n아이"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-        </RadioGroup>
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <!--<ImageView
-        android:id="@+id/image"
-        android:src="@drawable/boy1"
-
-        android:visibility="invisible"
-
+    <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
-        android:layout_height="300dp" />-->
+        android:layout_height="200dp"
+        android:id="@+id/graphHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/inputHeightButton"
+            android:text="신장 입력값 출력"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/outputHeightButton"
+            android:text="신장 저장값 출력"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -191,8 +68,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="확인"
-        android:id="@+id/btnOk"/>
+        android:text="뒤로"
+        android:id="@+id/btnBack"/>
 </LinearLayout>
 
 
