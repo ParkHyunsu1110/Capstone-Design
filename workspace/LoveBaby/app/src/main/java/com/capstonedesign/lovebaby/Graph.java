@@ -158,11 +158,8 @@ public class Graph extends AppCompatActivity {
         month2 = intent.getExtras().getString("month2").toString();
 
         TextView txtResult = (TextView) findViewById(R.id.txtResult);
-<<<<<<< HEAD
+
         txtResult.setText("키 :  " + cm + "\n 몸무게 : " + kg + "\n 개월수 : " + month2);
-=======
-        txtResult.setText("키는 = " + cm + ", 몸무게는 = " + kg + ", 개월 = " + month2);
->>>>>>> 9bda7d5999069ff619d951eeb05e5d9ed0db05a0
 
         Button btnOk = (Button) findViewById(R.id.btnOk);
         btnOk.setOnClickListener(new View.OnClickListener() {

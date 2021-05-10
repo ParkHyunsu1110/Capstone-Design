@@ -69,11 +69,8 @@
         tools:layout_editor_absoluteY="377dp" />
 
     <EditText
-<<<<<<< Updated upstream
+
         android:id="@+id/month2"
-=======
-        android:id="@+id/month"
->>>>>>> Stashed changes
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -99,5 +96,14 @@
             android:text="종료"
             tools:layout_editor_absoluteX="161dp"
             tools:layout_editor_absoluteY="474dp"/>
+
+        <Button
+            android:id="@+id/tableButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="테이블"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="474dp"
+            />
     </LinearLayout>
 </LinearLayout>

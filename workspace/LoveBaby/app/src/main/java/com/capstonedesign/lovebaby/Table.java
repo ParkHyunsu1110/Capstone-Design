@@ -29,9 +29,9 @@ public class Table extends Activity {
 
         //인텐트로 값 할당
         Intent getIntent = getIntent();
-        String weightText = getIntent.getExtras().getString("cm");
-        String heightText = getIntent.getExtras().getString("kg");
-        String monthInput = getIntent.getExtras().getString("month");
+        String heightText = getIntent.getExtras().getString("cm");
+        String weightText = getIntent.getExtras().getString("kg");
+        String monthInput = getIntent.getExtras().getString("month2");
 
         switch (Integer.parseInt(monthInput)) {
             case 1:
