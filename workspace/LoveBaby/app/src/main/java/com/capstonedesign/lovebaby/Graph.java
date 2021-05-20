@@ -79,11 +79,11 @@ public class Graph extends AppCompatActivity {
             public void onClick(View view) {
                 LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
                         //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
-                        new DataPoint(0, 55.4),
-                        new DataPoint(Double.valueOf("1"), Double.valueOf("56.8")),
-                        new DataPoint(Double.valueOf("2"), Double.valueOf("58.7")),
-                        new DataPoint(Double.valueOf("3"), Double.valueOf("62.8")),
-                        new DataPoint(Double.valueOf("4"), Double.valueOf("65.7"))
+                        new DataPoint(0, 49.9),
+                        new DataPoint(Double.valueOf("1"), Double.valueOf("54.7")),
+                        new DataPoint(Double.valueOf("2"), Double.valueOf("59.8")),
+                        new DataPoint(Double.valueOf("3"), Double.valueOf("61.4")),
+                        new DataPoint(Double.valueOf("4"), Double.valueOf("63.9"))
                 });
                 graphHeight.addSeries(series);
             }
@@ -117,11 +117,11 @@ public class Graph extends AppCompatActivity {
             public void onClick(View view) {
                 LineGraphSeries<DataPoint> series = new LineGraphSeries < > (new DataPoint[] {
                         //그래프 값 입력 시 오름차순 입력할 것, 그렇지 않을 경우 예외처리에 걸려서 오류 메시지 토스트 형식으로 출력됨
-                        new DataPoint(0, 4.4 ),
-                        new DataPoint(Double.valueOf("1"), Double.valueOf("6.5")),
-                        new DataPoint(Double.valueOf("2"), Double.valueOf("7.0")),
-                        new DataPoint(Double.valueOf("3"), Double.valueOf("7.4")),
-                        new DataPoint(Double.valueOf("4"), Double.valueOf("7.8"))
+                        new DataPoint(0, 3.3 ),
+                        new DataPoint(Double.valueOf("1"), Double.valueOf("4.5")),
+                        new DataPoint(Double.valueOf("2"), Double.valueOf("5.6")),
+                        new DataPoint(Double.valueOf("3"), Double.valueOf("6.4")),
+                        new DataPoint(Double.valueOf("4"), Double.valueOf("7.0"))
                 });
                 graphWeight.addSeries(series);
             }

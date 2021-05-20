@@ -86,14 +86,7 @@
             android:id="@+id/inputbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="입력"
-            tools:layout_editor_absoluteX="161dp"
-            tools:layout_editor_absoluteY="474dp"/>
-        <Button
-            android:id="@+id/exitbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="종료"
+            android:text="그래프"
             tools:layout_editor_absoluteX="161dp"
             tools:layout_editor_absoluteY="474dp"/>
 
@@ -105,5 +98,13 @@
             tools:layout_editor_absoluteX="161dp"
             tools:layout_editor_absoluteY="474dp"
             />
+        <Button
+            android:id="@+id/exitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종료"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="474dp"/>
+
     </LinearLayout>
 </LinearLayout>

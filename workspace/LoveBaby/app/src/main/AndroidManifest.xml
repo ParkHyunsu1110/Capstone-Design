@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".Home"/>
 
-        <activity android:name=".GraphTab"/>
         <activity android:name=".Input"/>
         <activity android:name=".Graph"/>
         <activity android:name=".Table"/>
