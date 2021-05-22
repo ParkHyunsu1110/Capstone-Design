@@ -6,10 +6,10 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <com.jjoe64.graphview.GraphView
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/graphWeight" />
+        android:layout_height="230dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,18 +23,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/outputWeightButton"
-            android:text="체중 저장값 출력"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <com.jjoe64.graphview.GraphView
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart2"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/graphHeight" />
+        android:layout_height="230dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,13 +38,6 @@
         <Button
             android:id="@+id/inputHeightButton"
             android:text="신장 입력값 출력"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/outputHeightButton"
-            android:text="신장 저장값 출력"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

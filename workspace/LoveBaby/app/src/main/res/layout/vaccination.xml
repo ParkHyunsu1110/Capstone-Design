@@ -6,10 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예방접종 진행"
+        android:textSize="25dp"
+        android:textColor="#FF5E00"/>
     <EditText
         android:id="@+id/MTtext"
         android:layout_width="match_parent"
-        android:layout_height="165dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="내용을 적어 주세요."
@@ -31,6 +37,83 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예방접종 종료"
+        android:textSize="25dp"
+        android:textColor="#FF5E00"/>
+
+    <EditText
+        android:id="@+id/MTtext2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="내용을 적어 주세요."
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="등록" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="예방접종 도움 사이트   "
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:textColor="#A566FF"/>
+
+        <Button
+            android:id="@+id/vaccinationBtn"
+            android:layout_width="100dp"
+
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/vaccination" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:text="뒤로"
+        android:id="@+id/btnBack2"/>
 
 </LinearLayout>
