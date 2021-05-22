@@ -7,14 +7,6 @@
     android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/Datetext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="날짜"
-        android:inputType="date" />
-
-    <EditText
         android:id="@+id/MTtext"
         android:layout_width="match_parent"
         android:layout_height="165dp"
