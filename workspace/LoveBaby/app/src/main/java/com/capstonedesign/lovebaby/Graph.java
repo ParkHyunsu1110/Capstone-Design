@@ -40,6 +40,7 @@ public class Graph extends Activity{
 
     private LineChart lineChart, lineChart3;
     private LineChart lineChart2, lineChart4;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
