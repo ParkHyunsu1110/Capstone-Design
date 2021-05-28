@@ -1,6 +1,7 @@
 package com.capstonedesign.lovebaby;
 
 import android.app.Activity;
+import android.arch.persistence.room.Room;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -45,6 +46,12 @@ public class Graph extends Activity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.graphshow);
+
+        // DB 객체 생성
+        final AppDatabase db = Room.databaseBuilder(this, AppDatabase.class, "vaccine-db").allowMainThreadQueries().build();
+
+        // 키, 몸무게, 개월수 DB list
+        List<GraphInfo> graphInfoList = db.graphInfoDAO().getAll();
 
         //체중
         inputWeightButton = findViewById(R.id.inputWeightButton);
