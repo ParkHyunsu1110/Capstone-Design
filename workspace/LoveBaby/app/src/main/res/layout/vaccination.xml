@@ -21,6 +21,39 @@
         android:hint="내용을 적어 주세요."
         android:inputType="textMultiLine" />
 
+    <EditText
+        android:id="@+id/vaccineName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="백신이름을 입력"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/vaccineMonth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="month"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/vaccineDay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="day"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/vaccinInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,15 +67,20 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="100dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="\n\n"/>
+        android:id="@+id/next2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -115,5 +153,29 @@
 
         android:text="뒤로"
         android:id="@+id/btnBack2"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
 </LinearLayout>

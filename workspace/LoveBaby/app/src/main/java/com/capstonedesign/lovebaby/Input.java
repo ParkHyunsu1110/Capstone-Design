@@ -1,6 +1,7 @@
 package com.capstonedesign.lovebaby;
 
 import android.app.Activity;
+import android.arch.persistence.room.Room;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.util.List;
 
 public class Input extends Activity implements OnClickListener {
 
@@ -21,6 +24,11 @@ public class Input extends Activity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.input);  //현재 사용 xml = input.xml
+
+        // DB 객체 생성
+        final AppDatabase db = Room.databaseBuilder(this, AppDatabase.class, "vaccine-db").allowMainThreadQueries().build();
+
+
         cm = (EditText)findViewById(R.id.cm);
         kg = (EditText)findViewById(R.id.kg);
         month2 = (EditText)findViewById(R.id.month2);
@@ -32,6 +40,15 @@ public class Input extends Activity implements OnClickListener {
         inputbutton.setOnClickListener(this);
         exitbutton.setOnClickListener(this);
         tableButton.setOnClickListener(this);
+
+        //입력버튼 클릭시 DB에 정보 저장
+        findViewById(R.id.input).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                db.graphInfoDAO().insert(new GraphInfo(Integer.parseInt(month2.getText().toString()), Integer.parseInt(kg.getText().toString()) ,Integer.parseInt(cm.getText().toString())));
+            }
+        });
+
 
     }
 
@@ -48,18 +65,21 @@ public class Input extends Activity implements OnClickListener {
             startActivityForResult(intent, CALL_REQUEST);
         }
         else if (v.getId() == R.id.tableButton) {
+            //테이블로 이동
             Intent intent = new Intent(this, Table.class);
-
+/*
             intent.putExtra("cm", cm.getText().toString());
             intent.putExtra("kg", kg.getText().toString());
             intent.putExtra("month2", month2.getText().toString());
             //리턴값을 돌려주는 액티비티 호출
-            startActivityForResult(intent, CALL_REQUEST);
+ */
+            startActivity(intent);
         }
         else {
             finish();
         }
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         //호출된 액티비티가 종료시 onActivityResult 메소드 호출
