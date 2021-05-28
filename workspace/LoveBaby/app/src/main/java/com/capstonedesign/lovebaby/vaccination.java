@@ -96,7 +96,7 @@ public class vaccination extends  Activity {
                 return false;
             }
         });
-
+      /*
         final EditText edtItem2 = (EditText) findViewById(R.id.MTtext2);
         Button btnAdd2 = findViewById(R.id.addbtn2);
         btnAdd2.setOnClickListener(new View.OnClickListener() {
@@ -117,7 +117,7 @@ public class vaccination extends  Activity {
                 return false;
             }
         });
-
+       */
         vaccinationBtn = findViewById(R.id.vaccinationBtn);
 
         vaccinationBtn.setOnClickListener(new View.OnClickListener() {
