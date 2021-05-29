@@ -105,5 +105,12 @@
             tools:layout_editor_absoluteX="161dp"
             tools:layout_editor_absoluteY="474dp"/>
 
+        <Button
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="입력" />
+
     </LinearLayout>
 </LinearLayout>

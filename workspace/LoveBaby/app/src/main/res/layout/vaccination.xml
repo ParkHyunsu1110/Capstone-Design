@@ -12,13 +12,14 @@
         android:text="예방접종 진행"
         android:textSize="25dp"
         android:textColor="#FF5E00"/>
+
     <EditText
-        android:id="@+id/MTtext"
+        android:id="@+id/vaccineName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="내용을 적어 주세요."
+        android:hint="백신이름을 입력"
         android:inputType="textMultiLine" />
 
     <LinearLayout
@@ -26,14 +27,53 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/vaccineMonth"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="month"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/vaccineDay"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="day"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vaccinInput"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="입력" />
+
         <Button
             android:id="@+id/addbtn"
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="등록" />
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/next2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
@@ -42,36 +82,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="\n\n"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:text="예방접종 종료"
         android:textSize="25dp"
         android:textColor="#FF5E00"/>
-
-    <EditText
-        android:id="@+id/MTtext2"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:hint="내용을 적어 주세요."
-        android:inputType="textMultiLine" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/addbtn2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="등록" />
-
-    </LinearLayout>
 
     <ListView
         android:id="@+id/listView2"
@@ -93,9 +107,8 @@
 
         <Button
             android:id="@+id/vaccinationBtn"
-            android:layout_width="100dp"
-
-            android:layout_height="70dp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
             android:layout_alignParentEnd="true"
 
             android:layout_alignParentRight="true"
@@ -107,13 +120,15 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/vaccination" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+
+            android:text="뒤로"
+            android:id="@+id/btnBack2"/>
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
 
-        android:text="뒤로"
-        android:id="@+id/btnBack2"/>
 
 </LinearLayout>

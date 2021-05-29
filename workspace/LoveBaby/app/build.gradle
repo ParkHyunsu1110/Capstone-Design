@@ -46,5 +46,8 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
 }

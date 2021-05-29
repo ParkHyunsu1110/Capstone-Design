@@ -1,6 +1,7 @@
 package com.capstonedesign.lovebaby;
 
 import android.app.Activity;
+import android.arch.persistence.room.Room;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -45,6 +46,12 @@ public class Graph extends Activity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.graphshow);
+
+        // DB 객체 생성
+        final AppDatabase db = Room.databaseBuilder(this, AppDatabase.class, "vaccine-db").allowMainThreadQueries().build();
+
+        // 키, 몸무게, 개월수 DB list
+        List<GraphInfo> graphInfoList = db.graphInfoDAO().getAll();
 
         //체중
         inputWeightButton = findViewById(R.id.inputWeightButton);
@@ -122,73 +129,76 @@ public class Graph extends Activity{
         inputWeightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                month = Float.parseFloat(month2);
-                weight = Float.parseFloat(kg);
-                try {
-                    ArrayList<Entry> entries3 = new ArrayList<>();
-                    entries3.add(new Entry(1, (float) 5.5));
-                    entries3.add(new Entry(2, (float) 6.6));
-                    entries3.add(new Entry(3, (float) 7.4));
-                    entries3.add(new Entry(4, (float) 8.0));
-                    entries3.add(new Entry(5, (float) 8.5));
-                    entries3.add(new Entry( month, weight));
+                for(int i=0; i<graphInfoList.size(); i++){
+                    GraphInfo graphInfo = graphInfoList.get(i);
+                    month = graphInfo.getMonth();
+                    weight = graphInfo.getWeight();
+                    try {
+                        ArrayList<Entry> entries3 = new ArrayList<>();
+                        /*entries3.add(new Entry(1, (float) 5.5));
+                        entries3.add(new Entry(2, (float) 6.6));
+                        entries3.add(new Entry(3, (float) 7.4));
+                        entries3.add(new Entry(4, (float) 8.0));
+                        entries3.add(new Entry(5, (float) 8.5));*/
+                        entries3.add(new Entry( month, weight));
 
-                    LineData chartData = new LineData();
-                    LineDataSet set1 = new LineDataSet(entries,"저장 몸무게");
-                    set1.setLineWidth(2);
-                    set1.setCircleRadius(2);
-                    set1.setDrawCircleHole(true);
-                    set1.setDrawCircles(true);
-                    set1.setCircleColor(Color.parseColor("#0000FF"));
-                    set1.setCircleColorHole(Color.BLUE);
-                    set1.setColor(Color.parseColor("#0000FF"));
-                    set1.setDrawHorizontalHighlightIndicator(false);
-                    set1.setDrawHighlightIndicators(false);
-                    set1.setDrawValues(false);
-                    chartData.addDataSet(set1);
+                        LineData chartData = new LineData();
+                        LineDataSet set1 = new LineDataSet(entries,"저장 몸무게");
+                        set1.setLineWidth(2);
+                        set1.setCircleRadius(2);
+                        set1.setDrawCircleHole(true);
+                        set1.setDrawCircles(true);
+                        set1.setCircleColor(Color.parseColor("#0000FF"));
+                        set1.setCircleColorHole(Color.BLUE);
+                        set1.setColor(Color.parseColor("#0000FF"));
+                        set1.setDrawHorizontalHighlightIndicator(false);
+                        set1.setDrawHighlightIndicators(false);
+                        set1.setDrawValues(false);
+                        chartData.addDataSet(set1);
 
-                    LineDataSet set2 = new LineDataSet(entries3,"입력 몸무게");
-                    set2.setLineWidth(2);
-                    set2.setCircleRadius(2);
-                    set2.setCircleColor(Color.parseColor("#FF0000"));
-                    set2.setCircleColorHole(Color.RED);
-                    set2.setColor(Color.parseColor("#FF0000"));
-                    set2.setDrawCircleHole(true);
-                    set2.setDrawCircles(true);
-                    set2.setDrawHorizontalHighlightIndicator(false);
-                    set2.setDrawHighlightIndicators(false);
-                    set2.setDrawValues(false);
-                    chartData.addDataSet(set2);
-                    lineChart.setData(chartData);
+                        LineDataSet set2 = new LineDataSet(entries3,"입력 몸무게");
+                        set2.setLineWidth(2);
+                        set2.setCircleRadius(2);
+                        set2.setCircleColor(Color.parseColor("#FF0000"));
+                        set2.setCircleColorHole(Color.RED);
+                        set2.setColor(Color.parseColor("#FF0000"));
+                        set2.setDrawCircleHole(true);
+                        set2.setDrawCircles(true);
+                        set2.setDrawHorizontalHighlightIndicator(false);
+                        set2.setDrawHighlightIndicators(false);
+                        set2.setDrawValues(false);
+                        chartData.addDataSet(set2);
+                        lineChart.setData(chartData);
 
-                    lineChart.invalidate();
+                        lineChart.invalidate();
 
-                    XAxis xAxis3 = lineChart3.getXAxis();
-                    xAxis3.setPosition(XAxis.XAxisPosition.BOTTOM);
-                    xAxis3.setTextColor(Color.BLACK);
-                    xAxis3.enableGridDashedLine(8, 24, 0);
+                        XAxis xAxis3 = lineChart3.getXAxis();
+                        xAxis3.setPosition(XAxis.XAxisPosition.BOTTOM);
+                        xAxis3.setTextColor(Color.BLACK);
+                        xAxis3.enableGridDashedLine(8, 24, 0);
 
-                    YAxis yLAxis3 = lineChart3.getAxisLeft();
-                    yLAxis3.setTextColor(Color.BLACK);
+                        YAxis yLAxis3 = lineChart3.getAxisLeft();
+                        yLAxis3.setTextColor(Color.BLACK);
 
-                    YAxis yRAxis3 = lineChart.getAxisRight();
-                    yRAxis3.setDrawLabels(false);
-                    yRAxis3.setDrawAxisLine(false);
-                    yRAxis3.setDrawGridLines(false);
+                        YAxis yRAxis3 = lineChart.getAxisRight();
+                        yRAxis3.setDrawLabels(false);
+                        yRAxis3.setDrawAxisLine(false);
+                        yRAxis3.setDrawGridLines(false);
 
-                    Description description3 = new Description();
-                    description3.setText("");
+                        Description description3 = new Description();
+                        description3.setText("");
 
-                    lineChart3.setDoubleTapToZoomEnabled(false);
-                    lineChart3.setDrawGridBackground(false);
-                    lineChart3.setDescription(description);
-                    lineChart3.animateY(2000, Easing.EasingOption.EaseInCubic);
-                    lineChart3.invalidate();
+                        lineChart3.setDoubleTapToZoomEnabled(false);
+                        lineChart3.setDrawGridBackground(false);
+                        lineChart3.setDescription(description);
+                        lineChart3.animateY(2000, Easing.EasingOption.EaseInCubic);
+                        lineChart3.invalidate();
 
 
-                } catch (IllegalArgumentException e) {
-                    //예외처리 하여 메시지 출력하도록.
-                    Toast.makeText(Graph.this, e.getMessage(), Toast.LENGTH_LONG).show();
+                    } catch (IllegalArgumentException e) {
+                        //예외처리 하여 메시지 출력하도록.
+                        Toast.makeText(Graph.this, e.getMessage(), Toast.LENGTH_LONG).show();
+                    }
                 }
             }
         });
