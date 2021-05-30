@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import java.util.ArrayList;
 
 public class vaccination extends  Activity {
@@ -50,12 +51,12 @@ public class vaccination extends  Activity {
             public void onClick(View v) {
 
                 ArrayList<String> arrayList = new ArrayList<>();
-                Vaccine vaccine = db.vaccineDAO().getVaccine(vaccineName.getText().toString()).get(0);
+               Vaccine vaccine = db.vaccineDAO().getVaccine(vaccineName.getText().toString()).get(0);
 
-                /*
+
                 // 데이터 베이스 백식 정보 입력시 백신 이름만 입력후 버튼 클릭, 아래 코드들은 주석처리
-                db.vaccineDAO().insert(new Vaccine(vaccineName.getText().toString()));
-                 */
+                //db.vaccineDAO().insert(new Vaccine(vaccineName.getText().toString()));
+
                 
                 // 추천백신 날짜 지정
                 int month = Integer.parseInt(vaccineMonth.getText().toString());

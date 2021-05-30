@@ -17,35 +17,30 @@ public class GraphInfo {
         this.height = height;
     }
 
-    public int getMonth() {
-        return month;
-    }
-
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setMonth(int month) {
-        this.month = month;
+    public int getMonth() {
+        return month;
     }
 
     public int getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
     public int getHeight() {
         return height;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
+
+    public void setId(int id) {
+        this.id = id;
     }
+
+    public void setMonth(int month) { this.month = month; }
+
+    public void setWeight(int weight) { this.weight = weight; }
+
+    public void setHeight(int height) { this.height = height; }
 }
