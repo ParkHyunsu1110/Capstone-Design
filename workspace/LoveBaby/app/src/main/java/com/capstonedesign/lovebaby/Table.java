@@ -93,8 +93,8 @@ public class Table extends Activity {
         for(int i = 0; i < graphInfoList.size(); i++) {
             GraphInfo graphInfo = graphInfoList.get(i);
 
-            String weightText = Float.toString(graphInfo.getWeight()) ;
-            String heightText = Float.toString(graphInfo.getHeight());
+            String weightText = Float.toString( (float) graphInfo.getWeight()) ;
+            String heightText = Float.toString( (float) graphInfo.getHeight());
 
             switch (graphInfo.getMonth()) {
                 case 1:

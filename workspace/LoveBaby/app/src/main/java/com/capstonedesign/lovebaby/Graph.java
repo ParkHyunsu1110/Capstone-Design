@@ -37,8 +37,9 @@ public class Graph extends Activity{
 
     String cm, kg, month2;
 
-    int getMonth, getWeight, getHeight;
-    int setMonth, weight, height;
+    int getMonth;
+    float getWeight, getHeight;
+
     private LineChart lineChart, lineChart3;
     private LineChart lineChart2, lineChart4;
 
@@ -138,15 +139,7 @@ public class Graph extends Activity{
                     getMonth = graphInfo.getMonth();
                     getWeight = graphInfo.getWeight();
 
-
-                    /*entries3.add(new Entry(1, (float) 5.5));
-                    entries3.add(new Entry(2, (float) 6.6));
-                    entries3.add(new Entry(3, (float) 7.4));
-                    entries3.add(new Entry(4, (float) 8.0));
-                    entries3.add(new Entry(5, (float) 8.5));*/
                     entries3.add(new Entry( getMonth, getWeight));
-
-
                 }
                 LineData chartData = new LineData();
                 LineDataSet set1 = new LineDataSet(entries,"저장 몸무게");
@@ -288,16 +281,7 @@ public class Graph extends Activity{
                     getMonth = graphInfo.getMonth();
                     getHeight = graphInfo.getHeight();
 
-
-                        /*entries4.add(new Entry(1, (float) 55.7));
-                        entries4.add(new Entry(2, (float) 59.4));
-                        entries4.add(new Entry(3, (float) 62.4));
-                        entries4.add(new Entry(4, (float) 64.9));
-                        entries4.add(new Entry(5, (float) 66.9));*/
                     entries4.add(new Entry(getMonth, getHeight));
-
-
-
                 }
 
                 LineData chartData2 = new LineData();

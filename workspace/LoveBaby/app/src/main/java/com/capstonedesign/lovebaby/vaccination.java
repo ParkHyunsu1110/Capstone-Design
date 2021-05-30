@@ -105,7 +105,7 @@ public class vaccination extends  Activity {
                 midList.remove(position);
                 adapter.notifyDataSetChanged();
 
-                return true;
+                return false;
             }
         });
       /*
