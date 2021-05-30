@@ -19,7 +19,7 @@ public class vaccination extends  Activity {
 
     ListView listView,listView2;
     TextView next, next2;
-
+    EditText vaccineName, vaccineMonth, vaccineDay;
     Button vaccinationBtn, btnBack2;
 
     String toDo;
@@ -30,16 +30,14 @@ public class vaccination extends  Activity {
 
         final AppDatabase db = Room.databaseBuilder(this, AppDatabase.class, "vaccine-db").allowMainThreadQueries().build();
 
-        next = findViewById(R.id.next);
-        next2 = findViewById(R.id.next2);
+        next = findViewById(R.id.next); next2 = findViewById(R.id.next2);
+        vaccineName = findViewById(R.id.vaccineName);
+        vaccineMonth = findViewById(R.id.vaccineMonth);
+        vaccineDay = findViewById(R.id.vaccineDay);
 
-        final EditText vaccineName = findViewById(R.id.vaccineName);
-        final EditText vaccineMonth = findViewById(R.id.vaccineMonth);
-        final EditText vaccineDay = findViewById(R.id.vaccineDay);
 
         final ArrayList<String> midList = new ArrayList<String>();
         final ArrayList<String> midList2 = new ArrayList<String>();
-
         listView = findViewById(R.id.listView);
         listView2 = findViewById(R.id.listView2);
 
@@ -52,11 +50,11 @@ public class vaccination extends  Activity {
                 ArrayList<String> arrayList = new ArrayList<>();
                 Vaccine vaccine = db.vaccineDAO().getVaccine(vaccineName.getText().toString()).get(0);
 
-                /*
+
                 // 데이터 베이스 백식 정보 입력시 백신 이름만 입력후 버튼 클릭, 아래 코드들은 주석처리
-                db.vaccineDAO().insert(new Vaccine(vaccineName.getText().toString()));
-                 */
-                
+                // db.vaccineDAO().insert(new Vaccine(vaccineName.getText().toString()));
+
+
                 // 추천백신 날짜 지정
                 int month = Integer.parseInt(vaccineMonth.getText().toString());
                 int day = Integer.parseInt(vaccineDay.getText().toString());
@@ -69,6 +67,7 @@ public class vaccination extends  Activity {
                 // 내용 출력
                 next.setText(arrayList.get(0));
                 next2.setText(arrayList.get(1));
+
             }
         });
 
@@ -79,7 +78,6 @@ public class vaccination extends  Activity {
         listView2.setAdapter(adapter2);
 
         Button btnAdd = findViewById(R.id.addbtn);
-
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,12 +87,6 @@ public class vaccination extends  Activity {
                 adapter.notifyDataSetChanged();
             }
         });
-        /*listView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });*/
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
@@ -107,17 +99,7 @@ public class vaccination extends  Activity {
                 return true;
             }
         });
-      /*
-        final EditText edtItem2 = (EditText) findViewById(R.id.MTtext2);
-        Button btnAdd2 = findViewById(R.id.addbtn2);
-        btnAdd2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "메모입력.", Toast.LENGTH_SHORT).show();
-                midList2.add(edtItem2.getText().toString());
-                adapter2.notifyDataSetChanged();
-            }
-        });*/
+
         listView2.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
@@ -128,6 +110,7 @@ public class vaccination extends  Activity {
                 return true;
             }
         });
+
         vaccinationBtn = findViewById(R.id.vaccinationBtn);
 
         vaccinationBtn.setOnClickListener(new View.OnClickListener() {
