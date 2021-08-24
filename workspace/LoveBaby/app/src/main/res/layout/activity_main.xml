@@ -6,106 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/imgLogo"
-            android:background="@drawable/logo"
-
-            android:layout_width="300dp"
-            android:layout_height="110dp"
-
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="50dp"/>
-
-        <ImageView
-            android:id="@+id/imgLogo2"
-            android:background="@drawable/main"
-
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="50dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-
+    <FrameLayout
+        android:id="@+id/mainactivity_framelayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="100dp">
-
-        <TextView
-            android:text="ID : "
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
-
-            android:inputType="textPersonName"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"/>
-
-        <TextView
-            android:text="PW : "
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:inputType="textPassword"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"/>
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/entranceBtn"
-        android:text="로그인"
-        android:background="#00aaff"
-
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-
-        android:layout_marginTop="543dp"
-        android:layout_marginLeft="100dp"/>
-
-
-    <Button
-        android:text="회원가입"
-        android:background="#00aaff"
-
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="543dp"/>
-
-    <Button
-        android:id="@+id/infoBtn"
-        android:background="@drawable/infobtn"
-
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_above="@+id/mainactivity_bottonnavigationview"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainactivity_bottonnavigationview"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="19dp"
-        android:layout_marginBottom="70dp"/>
+        app:itemBackground="@color/design_default_color_primary"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"/>
+
+
 </RelativeLayout>

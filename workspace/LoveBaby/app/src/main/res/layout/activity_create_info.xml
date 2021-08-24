@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/baby1"
+        android:src="@drawable/baby_ex"
+
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:text="이름 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/babyName"
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+
+        <TextView
+            android:text="성별 : "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- resident registration number-->
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="남자"/>
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여자"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Birth Date-->
+        <TextView
+            android:text="생년월일 : "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/birthDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="날짜 선택"/>
+
+        <TextView
+            android:text="태어난 시간 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/birthTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:text="혈액형 : "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinner_blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/bloodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/blood_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"/>
+            <RadioButton
+                android:id="@+id/blood_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"/>
+            <RadioButton
+                android:id="@+id/blood_o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"/>
+            <RadioButton
+                android:id="@+id/blood_ab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/infoSave"
+        android:text="저장"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="520dp"/>
+
+    <Button
+        android:id="@+id/infoDelete"
+        android:text="삭제"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="270dp"/>
+</RelativeLayout>
