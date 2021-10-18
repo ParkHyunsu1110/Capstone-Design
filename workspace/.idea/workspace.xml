@@ -6,7 +6,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4b8796-36f7-41a0-acdd-d243e9b08b45" name="Default Changelist" comment="" />
+    <list default="true" id="df4b8796-36f7-41a0-acdd-d243e9b08b45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoveBaby/app/src/main/java/com/capstonedesign/lovebaby/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoveBaby/app/src/main/res/layout/calendar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoveBaby/app/src/main/res/layout/calendar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../캡스톤1-중간보고서-양식.hwp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />

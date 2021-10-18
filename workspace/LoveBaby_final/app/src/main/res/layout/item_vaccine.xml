@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/vaccine_state_imageview"
+        android:src="@drawable/vaccine_not"/>-->
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/vaccine_state"
+        android:text="미접종"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vaccine_name"
+            android:text="백신 이름"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vaccine_name"
+            android:id="@+id/vaccine_date"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="접종 시기"/>
+ <!--       <TextView
+            android:id="@+id/vaccine_isessential"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="필수"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/vaccine_isfree"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/vaccine_isessential"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:text="무료"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>-->
+    </RelativeLayout>
+
+</LinearLayout>

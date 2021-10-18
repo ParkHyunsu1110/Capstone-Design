@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "538243971122",
+    "firebase_url": "https://lovebaby-2aec2-default-rtdb.firebaseio.com",
+    "project_id": "lovebaby-2aec2",
+    "storage_bucket": "lovebaby-2aec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538243971122:android:241aad54ede03c5c76e42b",
+        "android_client_info": {
+          "package_name": "com.example.lovebaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538243971122-pv0f7ckek6acjevr2cr824vhnsea6nhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lovebaby",
+            "certificate_hash": "4589b2f07d7952358bdb0d765efe1f36af0d2664"
+          }
+        },
+        {
+          "client_id": "538243971122-q375tqbnu0eju7sbpdqfa94j4t7a3ded.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC88Zh4M4C6ENicMstrTMFtNuqK8v-0qBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538243971122-q375tqbnu0eju7sbpdqfa94j4t7a3ded.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

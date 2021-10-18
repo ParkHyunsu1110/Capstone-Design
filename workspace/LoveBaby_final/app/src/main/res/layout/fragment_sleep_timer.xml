@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="시작 시간"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간 기록"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:id="@+id/hiddentext"/>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hiddentext"
+        android:visibility="gone"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/selectDay"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:text="날짜 선택"
+            android:layout_marginLeft="5dp"/>
+        <CheckBox
+            android:id="@+id/timer_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="낮잠이면 체크"
+            android:layout_marginLeft="-15dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_sta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bt_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기록"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-----------------일 평균-------------------"
+            android:id="@+id/mmmm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하루 수면 시간"
+            android:id="@+id/mm"
+            android:layout_below="@+id/mmmm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_total_time"
+            android:layout_toRightOf="@+id/mm"
+            android:layout_below="@+id/mmmm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="밤잠 시간: "
+            android:id="@+id/mm2"
+            android:layout_below="@id/mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_night_time"
+            android:layout_toRightOf="@id/mm2"
+            android:layout_below="@id/mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="낮잠 총 시간: "
+            android:id="@+id/mmm"
+            android:layout_below="@id/mm2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_nap_time"
+            android:layout_below="@id/mm2"
+            android:layout_toRightOf="@id/mmm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="낮잠 횟수: "
+            android:id="@+id/mm3"
+            android:layout_below="@+id/mmm"/>
+
+        <TextView
+            android:id="@+id/timer_nap_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mmm"
+            android:layout_toRightOf="@+id/mm3"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mm3"
+            android:id="@+id/mm4"
+            android:text="------------------개월 평균-------------------"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개월 수"
+            android:id="@+id/timer_gaewol"
+            android:layout_below="@+id/mm4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하루 수면 평균 시간: "
+            android:layout_below="@id/timer_gaewol"
+            android:id="@+id/mm5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_total_time2"
+            android:layout_toRightOf="@id/mm5"
+            android:layout_below="@id/timer_gaewol"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="밤잠 시간: "
+            android:layout_below="@id/mm5"
+            android:id="@+id/mm6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_night_time2"
+            android:layout_below="@id/mm5"
+            android:layout_toRightOf="@id/mm6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="낮잠 총 시간: "
+            android:id="@+id/mm7"
+            android:layout_below="@+id/mm6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/timer_nap_time2"
+            android:layout_below="@id/mm6"
+            android:layout_toRightOf="@+id/mm7"/>
+
+        <TextView
+            android:id="@+id/mm8"
+            android:layout_below="@+id/mm7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="낮잠 횟수: " />
+
+        <TextView
+            android:id="@+id/timer_nap_cnt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mm7"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/mm8"
+            android:text="0" />
+        <TextView
+            android:id="@+id/mmmmm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="측정 날짜 수: "
+            android:layout_below="@+id/mm8"/>
+        <TextView
+            android:id="@+id/timer_daycnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_below="@+id/mm8"
+            android:layout_toRightOf="@+id/mmmmm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_alignParentRight="true"
+            android:text="월 평균별 아이의 수면 기록"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/infobtn"
+            android:id="@+id/questionbtn"
+            android:layout_below="@+id/text"
+            android:layout_marginRight="20dp"/>
+    </RelativeLayout>
+</LinearLayout>
