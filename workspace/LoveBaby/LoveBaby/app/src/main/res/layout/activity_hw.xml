@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/duckimage"
+        android:src="@drawable/ducklength"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:text="\n\n\n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/heigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="키"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="                                      cm"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="몸무게"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <EditText
+        android:id="@+id/kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="                                       kg"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/months"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개월수"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/month2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="                                    개월"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입력" />
+
+            <Button
+                android:id="@+id/exitbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="종료"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="474dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/inputbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그래프"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="474dp"/>
+
+    <Button
+        android:id="@+id/tableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테이블"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="474dp"/>
+
+
+
+    </LinearLayout>

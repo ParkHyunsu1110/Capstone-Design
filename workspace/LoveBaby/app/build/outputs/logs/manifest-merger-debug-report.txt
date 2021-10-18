@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\1f8e4700be0125c9d743c5137f10dfcf\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e2fb41c35e76d2769269f8d50b383ab0\db-framework-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\a77c94ec2deed6373b98a706ea5ae470\db-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:5:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:11:9-46
+activity#com.capstonedesign.lovebaby.MainActivity
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.capstonedesign.lovebaby.Home
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:19:9-41
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:19:19-39
+activity#com.capstonedesign.lovebaby.Input
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:21:9-42
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:21:19-40
+activity#com.capstonedesign.lovebaby.Graph
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:22:9-42
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:22:19-40
+activity#com.capstonedesign.lovebaby.Table
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:23:9-42
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:23:19-40
+activity#com.capstonedesign.lovebaby.Babyinfo
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:25:9-45
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:25:19-43
+activity#com.capstonedesign.lovebaby.Calendar
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:27:9-45
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:27:19-43
+activity#com.capstonedesign.lovebaby.vaccination
+ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml:28:19-46
+uses-sdk
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\fad1a7e519eb7450d63f57ae39a33a7b\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\1f8e4700be0125c9d743c5137f10dfcf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\1f8e4700be0125c9d743c5137f10dfcf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7f3fa8d587d4363e1ca9ee9b95b784e2\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\c5686b24c8adfbfccbfe61068ac7c49f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\231bd3f62d452c1686a86dceddb50a92\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e2fb41c35e76d2769269f8d50b383ab0\db-framework-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e2fb41c35e76d2769269f8d50b383ab0\db-framework-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\a77c94ec2deed6373b98a706ea5ae470\db-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\a77c94ec2deed6373b98a706ea5ae470\db-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SAMSUNG\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SAMSUNG\Desktop\CT\Capstone-Design\workspace\LoveBaby\app\src\main\AndroidManifest.xml
