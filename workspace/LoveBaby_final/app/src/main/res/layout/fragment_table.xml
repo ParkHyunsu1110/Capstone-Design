@@ -315,7 +315,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="66.9"
+                        android:text=" "
                         android:textColor="#000000"
                         android:textSize="10pt" />
 
@@ -332,7 +332,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="8.5"
+                        android:text=" "
                         android:textColor="#000000"
                         android:textSize="10pt" />
                 </TableRow>

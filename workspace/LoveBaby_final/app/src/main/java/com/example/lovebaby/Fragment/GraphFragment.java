@@ -190,7 +190,7 @@ public class GraphFragment extends Fragment {
                 entries3.add(new Entry(2, (float) 6.6));
                 entries3.add(new Entry(3, (float) 7.4));
                 entries3.add(new Entry(4, (float) 8.0));
-                entries3.add(new Entry(5, (float) 8.5));
+                //entries3.add(new Entry(5, (float) 8.5));
 
                 LineData chartData = new LineData();
                 LineDataSet set1 = new LineDataSet(entries,"저장 몸무게");
@@ -330,7 +330,7 @@ public class GraphFragment extends Fragment {
                 entries4.add(new Entry(2, (float) 59.4));
                 entries4.add(new Entry(3, (float) 62.4));
                 entries4.add(new Entry(4, (float) 64.9));
-                entries4.add(new Entry(5, (float) 66.9));
+                //entries4.add(new Entry(5, (float) 66.9));
 
                 LineData chartData2 = new LineData();
                 LineDataSet set3 = new LineDataSet(entries2, "저장 키");
