@@ -1,4 +1,4 @@
-# Capstone-Design
+# Capstone-Design1
 2021-1 Hanshin Univ. Computer Engineering Capstone-Design
 
 2021-1 한신대학교 컴퓨터공학부 캡스톤디자인
@@ -11,7 +11,7 @@
 
 조원 : 윤준석 201458141 yjs3710@hs.ac.kr
 
-# Capstone-Design
+# Capstone-Design2
 2021-2 Hanshin Univ. Computer Engineering Capstone-Design
 
 2021-2 한신대학교 컴퓨터공학부 캡스톤디자인
