@@ -2,7 +2,9 @@
 <h3>2021 Hanshin Univ. Computer Engineering Capstone-Design<br>
 창의적 종합설계 최종 금상 수상</h3>
 
-[LoveBaby.pptx](https://github.com/ParkHyunsu1110/Capstone-Design/files/8475464/-PPT2.pptx)
+![금상 부부공유관리및육아성장정보를위한산모수첩앱_page-0001](https://user-images.githubusercontent.com/76775268/163027121-4de54597-c44c-4d13-b426-52e9b51b9dd7.jpg)
+
+[LoveBaby.pptx](https://github.com/ParkHyunsu1110/Capstone-Design/files/8475464/LoveBaby.pptx)
 
 
 ## Capstone-Design1
